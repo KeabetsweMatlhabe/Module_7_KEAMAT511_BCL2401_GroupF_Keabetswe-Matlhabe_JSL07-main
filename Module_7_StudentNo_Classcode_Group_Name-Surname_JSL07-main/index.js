@@ -7,7 +7,7 @@
     // Hide the modal initially
     modal.style.display = 'none';
   
-    cardForm.addEventListener('submit', function (e) {
+    cardForm.addEventListener('submit', function (e) {  /*an event listener is attactched to the "cardForm" to listen to the "submit" after that, the (e.ptrventDefault()) is used to prevent defualt refreshing of the page */
       e.preventDefault();
   
       // 🚨 Get input values
@@ -32,10 +32,10 @@
       <h3>${studentName}</h3>
       <p>Has Almost Completed The</p>
       <p>Course Name: ${courseName}</p>
-      <p>With Legendary Perseverance and the world-class bad-assery for not giving up</p>
+      <p>With Legendary Perseverance and the world-class bad-assery for not giving up 🏆</p>
       <p>Personal Message: ${personalMessage}</p>
       <img src="./logo.png" style="padding:25px; height:75px; alt="Codespace logo">
-      <p>${personalMessage}</p>
+      <p>${personalMessage}🐐 </p>
     `;
     
       //  Display the modal
